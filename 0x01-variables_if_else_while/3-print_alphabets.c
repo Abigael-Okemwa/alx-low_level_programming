@@ -4,23 +4,23 @@
 
 /**
  * main - Starting point
- * return: Always 0 (End)
+ * Return: Always 0 (End)
  */
 
 int main(void)
 {
-	char d = 'a';
-	char D = 'A';
+	char c = 'a';
+	char C = 'A';
 
-	while (d <= 'z')
+	while (c <= 'z')
 	{
-		putchar(D);
-		d++;
+		putchar(C);
+		c++;
 	}
-	while (D <= 'Z')
+	while (C <= 'Z')
 	{
-		putchar(D);
-		D++;
+		putchar(C);
+		C++;
 	}
 	putchar('\n');
 	return (0);
