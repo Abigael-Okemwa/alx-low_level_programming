@@ -17,7 +17,7 @@
  * You are not allowed to use any variable of type char
  *
  * All your code should be in the main function
- * Return: Always (0)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
@@ -49,7 +49,7 @@ int main(void)
 		}
 		a++;
 	}
-	putchar('\n);
+	putchar('\n');
 	return (0);
 }
 
