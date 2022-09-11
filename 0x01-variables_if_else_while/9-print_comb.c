@@ -8,9 +8,9 @@
 
 int main(void)
 {
-	int c = 48;
+	int c;
 
-	while (c < 58)
+	for (c = 48; c <= 57; c++)
 	{
 		putchar(c);
 		if (c != 57)
