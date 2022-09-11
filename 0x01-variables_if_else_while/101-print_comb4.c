@@ -4,7 +4,7 @@
  * main - starting point
  * program that prints all possible different combinations of three digits
  * Numbers must be separated by ,, followed by a space
- * 012, 120, 102, 021, 201, 210 are considered the same combination of the three digits 0, 1 and 2
+ * 012, 120, 102, 021, 201, 210 are considered the same as the three digits 0, 1 and 2
  *
  * Print only the smallest combination of three digits
  *
@@ -22,22 +22,22 @@
 
 int main(void)
 {
-	int a = 40, b = 40, c =40;
+	int a = 48, b = 48, c = 48;
 
-	while (a < 50)
+	while (a < 58)
 	{
-		b = 40;
-		while (b < 50)
+		b = 48;
+		while (b < 58)
 		{
-			c =40;
-			while (c < 50)
+			c = 48;
+			while (c < 58)
 			{
 				if (a != b && b != c && a != c && a < b && b < c)
 				{
 					putchar(a);
 					putchar(b);
 					putchar(c);
-					if (!(a == 47 && b == 48 && c == 49))
+					if (!(a == 55 && b == 56 && c == 57))
 					{
 						putchar(',');
 						putchar(' ');
