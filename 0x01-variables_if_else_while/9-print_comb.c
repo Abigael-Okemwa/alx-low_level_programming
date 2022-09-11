@@ -3,7 +3,7 @@
 /**
  * main - Starting point
  * prints all possible combinations of single-digit numbers
- * Return - Always 0 (done)
+ * Return - Always 0 (Successful)
  */
 
 int main(void)
@@ -13,7 +13,7 @@ int main(void)
 	while (c < 58)
 	{
 		putchar(c);
-		if (c !=57)
+		if (c ! =57)
 		{
 			putchar(',');
 			putchar(' ');
