@@ -7,8 +7,7 @@
  * The two numbers should be separated by a space
  * printed with two digits. 1 should be printed as 01
  * separated by comma, followed by a space*
- * should be printed in ascending order
- * 00 01 and 01 00 are combination of the numbers 0 and 1 
+ * should be printed in ascending order 
  * You can only use putchar eight times maximum in your code
  * You are not allowed to use any variable of type char
  * All your code should be in the main function
@@ -29,7 +28,7 @@ int main(void)
 		{
 			e = b / 10;
 			f = b % 10;
-			if(c < e || (c == e && d < f))
+			if (c < e || (c == e && d < f))
 			{
 				putchar(c + '0');
 				putchar(d + '0');
