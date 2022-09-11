@@ -6,11 +6,7 @@
  * The numbers should range from 0 to 99
  * The two numbers should be separated by a space
  * printed with two digits. 1 should be printed as 01
- * separated by comma, followed by a space*
- * should be printed in ascending order 
- * You can only use putchar eight times maximum in your code
- * You are not allowed to use any variable of type char
- * All your code should be in the main function
+ * separated by comma, followed by a space
  * Return: Always 0 (Finished)
  */
 
