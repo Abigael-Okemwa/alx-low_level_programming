@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * Main - Starting point
- * a C program that prints the size of various types
- * Return: Always 0 (Successful)
+ * main - Starting point
+ * various variables
+ * Return: Always 0 (Success)
  */
 
 int main(void)
@@ -21,4 +21,3 @@ int main(void)
 	printf("size of a float: %d byte(s)\n", sizeof(e));
 	return (0);
 }
-
