@@ -2,10 +2,10 @@
 
 /**
  * print_alphabet - function to print loer case alphabets
- * Return: Always 0 (Successful)
+ * Return: Always 0
  */
 
-void print_alphabet(void)
+void main(void)
 {
 	char f;
 
