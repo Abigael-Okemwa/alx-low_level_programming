@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet - function to print loer case alphabets
+ * print_alphabet - int_putchar()
  * Return: Always 0
  */
 
