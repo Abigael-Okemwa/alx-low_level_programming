@@ -2,7 +2,7 @@
 
 /**
  * void print_alphabet_x10 - prints the alphabet ten times
- * Description:  prints 10 times the alphabets
+ * Description: 'prints 10 times the alphabets'
  * Return: Always 0
  */
 
