@@ -6,7 +6,7 @@ print_alphabet - function to print alphabets
 
 void print_alphabet(void)
 {
-        char t;
+        char f;
 
         for (f = 'a'; f <= 'z'; f++)
         {
