@@ -2,21 +2,22 @@
 #include <stdio.h>
 
 /**
- * print_to_98- between all integers given and 98
- * @n: the starting point
+ * print_to_98 - prints all the integers between the number given and 98
+ * @n: number to count from
+ *
  * Return: void
  */
-
 void print_to_98(int n)
+
 {
-	if (n > 98)
+	void print_to_98(int n)
 	{
 		while (n >= 98)
 		{
 			printf("%d", n);
 			if (n != 98)
 			{
-				printf(", ")
+				printf(", ");
 			}
 			n--;
 		}
