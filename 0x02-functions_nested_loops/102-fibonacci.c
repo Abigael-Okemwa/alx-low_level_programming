@@ -20,10 +20,14 @@ int main(void)
 		{
 			printf("%lu\n", j);
 		}
+		else
+		{
+			printf("%lu, ", j);
+		}
 		k = j;
 		j += i;
 		i = k;
 		count++;
 	}
-	return(0);
+	return (0);
 }
