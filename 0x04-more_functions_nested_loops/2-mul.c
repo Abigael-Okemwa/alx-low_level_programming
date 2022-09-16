@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- * mult - multiplies two values
- * @a: the first number
- * @b: the second number
+ * mul - multiplies two values
+ * @a: first number
+ * @b: second number
  * Return: returns result
  */
 
