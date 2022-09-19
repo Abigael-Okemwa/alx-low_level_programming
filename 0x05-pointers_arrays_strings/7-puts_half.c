@@ -9,13 +9,18 @@
 
 void puts_half(char *str)
 {
-	int i = 0;
+	int len = 0
 
 	while (*str != '\0')
 	{
-		if (i % 2 ==0)
-			putchar(*(str + i));
-		i++;
+		len++;
+		str++;
 	}
-	putchar (10);
+	str -= (len /2);
+	while (*str != '\0')
+	{
+		_putchar(*str);
+		str++;
+	}
+	_putchar('\n');
 }
