@@ -3,7 +3,7 @@
 
 /**
  * reset_to_98 - updates the value it points
- * @ n: the value we will use
+ * @n: the value we will use
  * Return: nothing
  */
 
