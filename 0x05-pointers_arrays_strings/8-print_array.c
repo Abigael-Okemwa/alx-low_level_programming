@@ -3,8 +3,8 @@
 
 /**
  * print_array - prints n elements of an array of integers
- * @a
- * @n
+ * @a: array used
+ * @n: number of values
  * Return: the inputs of a and n
  */
 
