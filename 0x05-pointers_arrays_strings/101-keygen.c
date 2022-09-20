@@ -11,9 +11,8 @@
 int main(void)
 {
 	char passwrd[84];
-	int index = 0, sum = 0, diff_hlfa, diff_hlfb,diff_hlfc;
+	int index = 0, sum = 0, diff_hlfa, diff_hlfb;
 
-	srand(time(0));
 	while (sum < 2772)
 	{
 		passwrd[index] = 33 + rand() % 94;
