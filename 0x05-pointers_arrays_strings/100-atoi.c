@@ -33,5 +33,5 @@ int _atoi(char *s)
 		u++;
 	}
 	uns *= min;
-	return (uns)
+	return (uns);
 }
