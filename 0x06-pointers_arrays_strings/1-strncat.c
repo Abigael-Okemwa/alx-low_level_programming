@@ -5,8 +5,9 @@
  * will use at most n bytes from src
  * src does not need to be null-terminated if it contains n or more bytes
  * @dest: the string in which appending will occur
- * @c: number of bytes from src
+ * @n: number of bytes from src
  * @src: to be appended to dest
+ * Return: a pointer from the outcome
  */
 
 char *_strncat(char *dest, char *src, int n)
