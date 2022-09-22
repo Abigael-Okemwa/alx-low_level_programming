@@ -10,7 +10,7 @@ char *string_toupper(char *c)
 {
 	int index = 0;
 
-	while (c[index])
+	while (c[index] != '\0')
 	{
 		if (c[index] >= 'a' && c[index] <= 'z')
 		c[index] -= 32;
