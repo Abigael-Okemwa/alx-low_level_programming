@@ -15,21 +15,21 @@ char *cap_string(char *)
 		while (!(str[index] >= 'a' && str[inde] <= 'z'))
 			index++;
 		if (str[index - 1] == ' ' ||
-				stir[index - 1] == '\t' ||
-				stir[index - 1] == '\n' ||
-				stir[index - 1] == ',' ||
-				stir[index - 1] == ';' ||
-				stir[index - 1] == '.' ||
-				stir[index - 1] == '!' ||
-				stir[index - 1] == '?' ||
-				stir[index - 1] == '"' ||
-				stir[index - 1] == '(' ||
-				stir[index - 1] == ')' ||
-				stir[index - 1] == '{' ||
-				stir[index - 1] == '}' ||
+				str[index - 1] == '\t' ||
+				str[index - 1] == '\n' ||
+				str[index - 1] == ',' ||
+				str[index - 1] == ';' ||
+				str[index - 1] == '.' ||
+				str[index - 1] == '!' ||
+				str[index - 1] == '?' ||
+				str[index - 1] == '"' ||
+				str[index - 1] == '(' ||
+				str[index - 1] == ')' ||
+				str[index - 1] == '{' ||
+				str[index - 1] == '}' ||
 				index == 0)
-			stir[index] -= 32;
+			str[index] -= 32;
 		index++;
 	}
-	return(str);
+	return (str);
 
