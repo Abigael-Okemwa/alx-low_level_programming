@@ -1,6 +1,6 @@
 include "main.h"
 
-/*
+/**
  * _memset - fills memory with a constant byte
  * @n: number of bytes
  * @b: char to be used
