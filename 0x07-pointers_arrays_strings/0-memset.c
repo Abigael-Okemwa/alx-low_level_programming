@@ -1,9 +1,7 @@
 include "main.h"
 
 /*
- * _memset - function that fills memory with a constant byte
- * fills the first n bytes of the memory area pointed to by s
- * with the constant byte b
+ * _memset - fills memory with a constant byte
  * @n: number of bytes
  * @b: char to be used
  * @s: address for the memory block
