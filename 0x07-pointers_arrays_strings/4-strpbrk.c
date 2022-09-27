@@ -4,8 +4,7 @@
  * _strpbrk - searches a string for any of a set of bytes
  * @s: string to focus on
  * @accept: string to check against
- * _strpbrk() function locates the first occurrence in the string s
- * Return: a pointer to the byte in s 
+ * Return: a pointer to the byte in s
  */
 
 char *_strpbrk(char *s, char *accept)
@@ -24,3 +23,4 @@ char *_strpbrk(char *s, char *accept)
 	}
 	return (0);
 }
+	
