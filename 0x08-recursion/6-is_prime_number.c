@@ -8,16 +8,26 @@
 
 int is_prime_number(int n)
 {
-	int iterator;
+	int start = n / 2;
 
-	iterator = 2;
-	if (n < 2)
+	if (n <= 1)
 	{
 		return (0);
 	}
-	if (n == 2)
-	{
+	return (is_prime(n, start));
+}
+/**
+ * is_prime - returns 1 when its prime
+ * @n: number to be checked
+ * @start: number to start checking from
+ * Return: 1 if n is prime, 0 otherwise
+ */
+
+int is_prime_number(int n, int start)
+{
+	if (start <= 1)
 		return (1);
-	}
-	return (evaluate_n(n, iterator));
+	else if (n % start == 0)
+		return (0);
+	return (is_prime(n, start -1));
 }
