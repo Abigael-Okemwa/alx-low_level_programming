@@ -8,9 +8,9 @@
 
 int _sqrt_recursion(int n)
 {
-	if (n == 1 || n == 0)
-		return (n);
-	return (_sqrt(0, n));
+	if (n == 0)
+		return (0);
+	return (_sqrt(1, n));
 }
 
 /**
@@ -19,12 +19,11 @@ int _sqrt_recursion(int n)
  * @x: the number that is squared
  * Return: the square root of n
  */
-int _sqrt_recursion(int n, int x)
+int _sqrt(int n, int x)
 {
-if (n > x / 2)
-return (-1);
-else if (n * n == x)
-return (n);
-return (_sqrt(n + 1, x));
+	if (n * n == x)
+		return (n);
+	if (n * n > x)
+		return (-1);
+	return (_sqrt(n + 1, x));
 }
-
