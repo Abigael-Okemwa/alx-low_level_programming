@@ -19,5 +19,5 @@ int is_prime_number(int n)
 	{
 		return (1);
 	}
-	return (evaluate_(n, iterator));
+	return (evaluate_n(n, iterator));
 }
