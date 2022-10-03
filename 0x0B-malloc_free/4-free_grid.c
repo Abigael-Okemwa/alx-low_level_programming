@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * free_grid - frees a 2-D array 
+ * free_grid - frees a 2_D array 
  * created by your alloc_grid function
  * @grid: memory block to be freed
  * @height: height of the array
