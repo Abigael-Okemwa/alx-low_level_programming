@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * create_array - creates an array of chars, to specific char
  * @c: character to use
@@ -18,6 +18,6 @@ char *create_array(unsigned int size, char c)
 	if (ar == NULL)
 		return (NULL);
 	for (index = 0; index < size; index++)
-		array[index] = c;
-	return (array);
+		ar[index] = c;
+	return (ar);
 }
