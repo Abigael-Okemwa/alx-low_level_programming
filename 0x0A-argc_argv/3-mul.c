@@ -6,7 +6,6 @@
  * main - multiplies two numbers
  * @argc: argument count
  * @argv: argument vector
- * atoi() function converts an integer value from a string of characters
  * Return: 0 if true, 1 if false
  */
 
