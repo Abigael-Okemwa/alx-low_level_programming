@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 
-int main(int argc__attribute__((unused)), char *argv[]);
+int _putchar(char c)
+
 #endif /* MAIN_H */
 
