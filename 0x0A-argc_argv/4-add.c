@@ -11,22 +11,24 @@
 
 int main(int argc, char *argv[])
 {
-	int a = 0, b, c;
+	int num, digit, sum = 0;
 
-	for (b = 1; b < argc; b++)
+	for (num = 1; num < argc; num++)
 	{
-		for (c = 0; argv[b][c]; c++)
+		for (digit = 0; argv[num][digit]; digit++)
 		{
-			if (isdigit(argv[b][c]) == 0)
+			if (argv[num][digit] < '0' || argv[num][digit] 'g')
 			{
-				puts("Error");
+				printf("Error\n");
+			}
 				return (1);
 			}
 		}
 	}
 	for (b = 1; b < argc; b++)
 	{
-		a += atoi(argv[b]);
+		sum += atoi(argv[num]);
 	}
-	printf("%d\n", a);
+	printf("%d\n", sum);
+	return (0);
 }
