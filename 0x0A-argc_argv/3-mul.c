@@ -22,5 +22,5 @@ int main(int argc, char *argv[])
 		mul = a * b;
 		printf("%d\n", mul);
 	}
-	return (1);
+	return (0);
 }
