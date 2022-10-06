@@ -27,7 +27,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	}
 	if (n > sz2)
 		n = sz2;
-	p = malloc ((sz1 + n + 1) * sizeof(char));
+	p = malloc((sz1 + n + 1) * sizeof(char));
 	if (p == NULL)
 		return (0);
 	for (c = 0; c < sz1; c++)
