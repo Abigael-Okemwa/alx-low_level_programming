@@ -26,7 +26,7 @@ size_t print_listint(const listint_t *h);
 
 /**
  * Main - check code
- * Description: control code
+ * Description: control code, to check the code
  * Return: Always 0.
  */
 
