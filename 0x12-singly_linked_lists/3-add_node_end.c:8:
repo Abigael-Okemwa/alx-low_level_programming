@@ -1,0 +1,6 @@
+dd_node_end.c:20: ERROR: space required before the open parenthesis '('                                                            
+
+3-add_node_end.c:33: ERROR: trailing statements should be on next line                                                                
+
+total: 3 errors, 0 warnings, 43 lines checked                             clear
+
